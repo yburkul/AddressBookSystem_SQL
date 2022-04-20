@@ -23,3 +23,5 @@ insert into AddressBook(First_Name,Last_Name,Address,City,State,Zip,PhoneNumber,
 
 Update AddressBook
 SET City = 'Amravti', State = 'Bihar' where First_Name = 'Yogesh';
+
+Delete from AddressBook where First_Name = 'Kishan';
