@@ -16,7 +16,7 @@ select * from AddressBook;
 
 insert into AddressBook(First_Name,Last_Name,Address,City,State,Zip,PhoneNumber,Email)values
 ('Yogesh','Burkul','Asola','Buldana','Maharashtra',443200,8811775522,'y.burkul987@gmail.com'),
-('Atish','Patel','Rajur','Surat','Gujrat',430001,9900005522,'a.pawar7@gmail.com'),
-('Nikita','Patil','Shivni','Jalna','Maharashtra',403001,8811775522,'nikitapatil98@gmail.com'),
-('Kishan','kumar','Charminar','Hyderabad','Telangana',553200,8811775522,'kishan111@gmail.com'),
-('Arjun','Shelke','Chincholi','Jalna','Maharashtra',40200,8811775522,'y.burkul987@gmail.com');
+('Atish','Patel','Rajur','Surat','Gujrat',430001,9900005522,'atishpatel7@gmail.com'),
+('Nikita','Patil','Shivni','Jalna','Maharashtra',403001,7011770022,'nikitapatil98@gmail.com'),
+('Kishan','kumar','Charminar','Hyderabad','Telangana',553200,7902705022,'kishan111@gmail.com'),
+('Arjun','Shelke','Chincholi','Jalna','Maharashtra',40200,8011045032,'arjun@gmail.com');
