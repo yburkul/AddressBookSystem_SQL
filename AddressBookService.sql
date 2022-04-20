@@ -26,3 +26,4 @@ SET City = 'Amravti', State = 'Bihar' where First_Name = 'Yogesh';
 
 Delete from AddressBook where First_Name = 'Kishan';
 select First_Name from AddressBook where City = 'Surat' or State = 'Gujrat';
+select count(First_Name) as size_of_Address from AddressBook where City = 'Jalna' or State = 'Maharashtra';
