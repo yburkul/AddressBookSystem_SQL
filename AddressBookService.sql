@@ -20,3 +20,6 @@ insert into AddressBook(First_Name,Last_Name,Address,City,State,Zip,PhoneNumber,
 ('Nikita','Patil','Shivni','Jalna','Maharashtra',403001,7011770022,'nikitapatil98@gmail.com'),
 ('Kishan','kumar','Charminar','Hyderabad','Telangana',553200,7902705022,'kishan111@gmail.com'),
 ('Arjun','Shelke','Chincholi','Jalna','Maharashtra',40200,8011045032,'arjun@gmail.com');
+
+Update AddressBook
+SET City = 'Amravti', State = 'Bihar' where First_Name = 'Yogesh';
