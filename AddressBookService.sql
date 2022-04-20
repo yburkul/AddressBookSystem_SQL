@@ -25,3 +25,4 @@ Update AddressBook
 SET City = 'Amravti', State = 'Bihar' where First_Name = 'Yogesh';
 
 Delete from AddressBook where First_Name = 'Kishan';
+select First_Name from AddressBook where City = 'Surat' or State = 'Gujrat';
