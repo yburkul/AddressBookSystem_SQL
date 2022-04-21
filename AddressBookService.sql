@@ -28,3 +28,11 @@ Delete from AddressBook where First_Name = 'Kishan';
 select First_Name from AddressBook where City = 'Surat' or State = 'Gujrat';
 select count(First_Name) as size_of_Address from AddressBook where City = 'Jalna' And State = 'Maharashtra';
 select * from AddressBook where City = 'Jalna' order by First_Name ASC;
+
+Alter table AddressBook
+Add Name varchar(100), Type varchar(100)
+
+update AddressBook set Type = 'FriendsBook', Name = 'Friend' where First_Name in ('Yogesh','Atish','Nikita','Arjun');
+update AddressBook set Type = 'FamilyBook', Name = 'Family' where First_Name in ('Yogesh', 'Arjun');
+
+select * from AddressBook;
