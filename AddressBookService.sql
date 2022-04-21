@@ -36,3 +36,5 @@ update AddressBook set Type = 'FriendsBook', Name = 'Friend' where First_Name in
 update AddressBook set Type = 'FamilyBook', Name = 'Family' where First_Name in ('Yogesh', 'Arjun');
 
 select * from AddressBook;
+
+select count(First_Name) as FamilyContact from AddressBook where Type = 'FamilyBook';
